@@ -1,3 +1,6 @@
+# Not an exact Leetcode problem - Linear Search Algorithm
+# Linear search is a basic search algorithm
+
 print("Enter the Array: ")
 arr=list(map(int,input().split()))
 num=int(input("Enter number to find: "))
@@ -6,6 +9,6 @@ for i in arr:
     if i==num:
         print(j)
         break
-    j+=1a
+    j+=1
 else:
     print(-1)
