@@ -1,0 +1,11 @@
+print("Enter the Array: ")
+arr=list(map(int,input().split()))
+num=int(input("Enter number to find: "))
+j=0
+for i in arr:
+    if i==num:
+        print(j)
+        break
+    j+=1a
+else:
+    print(-1)
